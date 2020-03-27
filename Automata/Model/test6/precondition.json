@@ -1,0 +1,8 @@
+{
+  "inputs": ["a"],
+  "upperGuard": 100,
+  "stateNum": 5,
+  "sampleNum": 5,
+  "epsilon": 0.005,
+  "delta": 0.005
+}

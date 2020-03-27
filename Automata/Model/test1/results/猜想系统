@@ -1,0 +1,7 @@
+digraph {
+	0 [label=0]
+	2 [label=2 shape=doublecircle]
+	0 -> 2 [label=" a [5.0,7)"]
+	0 -> 0 [label=" b [0,2.0)U[3.0,6.0)"]
+	2 -> 2 [label=" b [0,7)"]
+}

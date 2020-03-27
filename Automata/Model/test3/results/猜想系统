@@ -1,0 +1,15 @@
+digraph {
+	0 [label=0]
+	1 [label=1 shape=doublecircle]
+	2 [label=2]
+	0 -> 2 [label=" a [0,5.0)"]
+	0 -> 0 [label=" b [0,10)"]
+	0 -> 0 [label=" a [5.0,10)"]
+	1 -> 1 [label=" b [0,6.0)"]
+	1 -> 1 [label=" a [0,10)"]
+	1 -> 0 [label=" b [6.0,10)"]
+	2 -> 1 [label=" a [5.0,10)"]
+	2 -> 0 [label=" a [0,5.0)"]
+	2 -> 0 [label=" b [0,5.0)"]
+	2 -> 2 [label=" b [5.0,10)"]
+}
