@@ -19,7 +19,7 @@
 
 - 模型文件 - example.json
 
-```json
+```
 {
 	"inputs": ["a", "b"],  // 输入actions
 	"states": ["0", "1"],  // 状态
@@ -35,7 +35,7 @@
 
 - 学习前需要知道的模型信息 - precondition.json
 
-```json
+```
 {
   "inputs": ["a", "b"], // 输入actions
   "upperGuard": 7,  // 时间上界
